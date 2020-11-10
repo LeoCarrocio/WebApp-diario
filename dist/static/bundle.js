@@ -1,0 +1,9 @@
+/******/ (() => { // webpackBootstrap
+/*!******************!*\
+  !*** ./index.js ***!
+  \******************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements:  */
+
+/******/ })()
+;
