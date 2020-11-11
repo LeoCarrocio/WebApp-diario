@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-import Main from './components/Main';
+import Main from './container/Main';
 
 const app = <Main articulos={window.__data__}/> // se pasa por este medio los datos a mi Main
 

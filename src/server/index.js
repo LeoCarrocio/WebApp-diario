@@ -4,7 +4,7 @@ import ReactDom from 'react-dom/server';
 import path from 'path';
 import axios from 'axios'; 
 
-import Main from '../client/components/Main';
+import Main from '../client/container/Main';
 
 const app = express();
 
