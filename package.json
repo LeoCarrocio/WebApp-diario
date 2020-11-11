@@ -6,10 +6,10 @@
   "scripts": {
     "build:client": "webpack",
     "build:server": "babel src --out-dir dist",
-    "build":"npm run build:client && npm run build:server",
-    "start:client":"webpack --watch",
+    "build": "npm run build:client && npm run build:server",
+    "start:client": "webpack --watch",
     "start:server": "nodemon --exec babel-node src/server/index.js",
-    "start":"npm run start:server & npm run start:client"
+    "start": "npm run start:server & npm run start:client"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +27,7 @@
     "nodemon": "^2.0.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1",
     "webpack": "^5.4.0",
     "webpack-cli": "^4.2.0"
   }
